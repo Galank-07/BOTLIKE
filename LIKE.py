@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
-import STN
-from STN.lib.curve.ttypes import *
+import SLACKBOT
+from SLACKBOT.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,sys
 import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
 
-cl = STN.LINE()
-cl.login(token='authoken punya kalian')
+cl = SLACKBOT.LINE()
+cl.login(token='TOKEN BOT LIKE BEB')
 cl.loginResult()
 
-print u"PRANK BOTLIKE SUCCESS LOGIN"
+print "BOTLIKE SUCCESS LOGIN"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -28,9 +28,9 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"❂••••••••AUTO ADD••••••••❂\nhttps://line.me/R/ti/p/%40iya4481p\n『⊰์◉⊱ᎢᎬᎪᎷ ᏴᏞᎪᏟᏦ ❂Ғ ᏀᎪᎷᎬᎡ⊰์◉⊱』",
+    'message':"═════╬╬════AUTO ADD═════╬╬════\nhttps://line.me/R/ti/p/~fuck.you__\n『TΣΔM SLΔCҜβΩT』",
     "lang":"JP",
-    "comment1":"❂••••••••••••••••••••••••••❂\n https://line.me/R/ti/p/%40iya4481p\n『⊰์◉⊱ᎢᎬᎪᎷ ᏴᏞᎪᏟᏦ ❂Ғ ᏀᎪᎷᎬᎡ⊰์◉⊱』",
+    "comment1":"╰══════╬╬═══════\n line.me/ti/p/~fuck.you__\n『TΣΔM SLΔCҜβΩT』\n╰══════╬╬═════",
     "commentOn":False,
     "commentBlack":{},
     "wblack":False,
@@ -183,7 +183,7 @@ def bot(op):
 
 					cl.sendText(msg.to, "people who reading%s\n is this\n\n\nDate and time I started it:\n[%s]" % (wait2['readMember'][msg.to],setTime[msg.to]))
 				else:
-					cl.sendText(msg.to, "Ketik dulu cek\nBaru ketik cctv")
+					cl.sendText(msg.to, "Ketik dulu cek bego\nBaru ketik cctv")
 
 #-----------------------------------------------------------
         if op.type == 59:
