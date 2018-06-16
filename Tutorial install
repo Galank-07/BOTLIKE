@@ -1,0 +1,15 @@
+COMMAND VIA TERMUX
+_________________________
+
+1.pkg install python2
+2.pkg install nano
+3.pkg install git
+4.pip2 install rsa
+5.pip2 install requests
+6.pip2 install thrift==0.9.3
+7.git clone https://github.com/Galank-07/BOTLIKE
+8.cd BOTLIKE
+9.python2 LIKE.py
+
+Moga Succes
+Selamat Mencoba
