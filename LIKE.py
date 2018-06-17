@@ -7,9 +7,17 @@ import time,random,sys,json,codecs,threading,glob,sys
 import re,string,os
 import os.path,sys,urllib,shutil,subprocess
 
+# GUNAKAN DENGAN BIJAK GENK
+# 1 LAGI BOTLIKE INI GUNAKAN TOKEN DESKTOPMAC
+# DARI PADA NANYA MENDING AKU KASIH TAU SEKALIGUS
+
+# BUAT KALIAN AKU SENDIRI MENGUCAPKAN.
+# MINAL AIDZIN WAL FAIZIN
+# MOHON MAAF LAHIT DAN BATIN
+# SORRY GAK SEBUTIN 1 PER 1
 
 cl = SLACKBOT.LINE()
-cl.login(token='TOKEN BOT LIKE BEB')
+cl.login(token='TOKEN BOTLIKE BEB')
 cl.loginResult()
 
 print "BOTLIKE SUCCESS LOGIN"
@@ -20,7 +28,7 @@ KAC = [cl]
 mid = cl.getProfile().mid
 
 Bots = [mid]
-admid= "mid kalian"
+admid= "MID KALIAN"
 wait = {
     'contact':False,
     'autoJoin':True,
