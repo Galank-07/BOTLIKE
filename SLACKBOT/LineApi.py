@@ -311,8 +311,8 @@ class LINE:
 
       prof = self.getProfile()
 
-      print("PRANKBOTS")
-      print("MID KAMU -> " + prof.mid)
-      print("NAMA KAMU -> " + prof.displayName)
-      print("TOKET KAMU -> " + self.authToken)
-      print("cert -> " + self.cert if self.cert is not None else "")
+      print("TΣΔM SLΔCҜβΩT")
+      print("MID KAMU ➠ " + prof.mid)
+      print("NAMA KAMU ➠ " + prof.displayName)
+      print("TOKET KAMU ➠ " + self.authToken)
+      print("cert ➠ " + self.cert if self.cert is not None else "")
